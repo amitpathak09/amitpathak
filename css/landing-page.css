@@ -46,7 +46,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-social-buttons i {
-  text-shadow: 4px 4px 4px #050505
+  text-shadow: 2px 2px 2px #050505;
   font-size: 80%;
 }
 
@@ -61,9 +61,11 @@ body, h1, h2, h3, h4, h5, h6 {
     display: block;
     margin-bottom: 20px;
     padding: 0;
+    text-shadow: 2px 2px 2px #050505;
   }
   ul.intro-social-buttons>li:last-child {
     margin-bottom: 0;
+    text-shadow: 2px 2px 2px #050505;
   }
   .intro-divider {
     width: 100%;
@@ -75,7 +77,7 @@ body, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
-  text-shadow: 4px 4px 4px #050505
+  text-shadow: 4px 4px 4px #050505;
 }
 
 .content-section-a {
@@ -119,12 +121,14 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner-social-buttons {
   float: right;
   margin-top: 0;
+  text-shadow: 2px 2px 2px #050505;
 }
 
 @media(max-width:1199px) {
   ul.banner-social-buttons {
     float: left;
     margin-top: 15px;
+    text-shadow: 2px 2px 2px #050505;
   }
 }
 
@@ -137,12 +141,12 @@ body, h1, h2, h3, h4, h5, h6 {
   ul.banner-social-buttons>li {
     display: block;
     margin-bottom: 20px;
-    text-shadow: 4px 4px 4px #050505
+    text-shadow: 2px 2px 2px #050505;
     padding: 0;
   }
   ul.banner-social-buttons>li:last-child {
     margin-bottom: 0;
-    text-shadow: 4px 4px 4px #050505
+    text-shadow: 2px 2px 2px #050505;
   }
 }
 
