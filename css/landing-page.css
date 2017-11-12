@@ -31,18 +31,18 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message>h1 {
   margin: 0;
-  text-shadow: 2px 2px 2px #16efff;
+  text-shadow: 2px 2px 2px #050505;
   font-size: 5em;
 }
 
 .intro-divider {
   width: 400px;
-  border-top: 1px solid #3ae1ea;
+  border-top: 1px solid #ffffff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .intro-message>h3 {
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #050505;
 }
 
 .intro-social-buttons i {
