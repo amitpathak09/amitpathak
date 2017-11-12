@@ -31,7 +31,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message>h1 {
   margin: 0;
-  text-shadow: 2px 2px 2px #050505;
+  text-shadow: 8px 8px 8px #050505;
   font-size: 5em;
 }
 
@@ -42,7 +42,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message>h3 {
-  text-shadow: 2px 2px 2px #050505;
+  text-shadow: 8px 8px 8px #050505;
 }
 
 .intro-social-buttons i {
