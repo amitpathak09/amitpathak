@@ -21,7 +21,7 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   background: url(../img/iarcdrone2.jpg) no-repeat center center;
   background-filter: blue(2px);
-  -webkit-filter: blur(2px);
+  background-webkit-filter: blur(2px);
   background-size: cover;
   
 }
