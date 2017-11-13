@@ -19,17 +19,16 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #ffffff;
+  
+}
+.page-bg {
   background: url(../img/iarcdrone2.jpg) no-repeat center center;
   -webkit-filter: blur(2px);
   background-size: cover;
-}
-.page-bg {
-  background: url('http://www.planwallpaper.com/static/images/general-night-golden-gate-bridge-hd-wallpapers-golden-gate-bridge-wallpaper.jpg');
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
   position: fixed;
   width: 100%;
   height: 100%;
