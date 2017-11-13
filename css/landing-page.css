@@ -20,22 +20,10 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #ffffff;
   background: url(../img/iarcdrone2.jpg) no-repeat center center;
-  background-webkit-filter: blur(2px);
+  background-filter: blue(2px);
+  -webkit-filter: blur(2px);
   background-size: cover;
   
-}
-.page-bg {
-  
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 .intro-message {
   position: relative;
