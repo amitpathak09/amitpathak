@@ -73,7 +73,7 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large {\href{https://amitpathak09.github.io/}{Amit Kumar \textcolor{cyan}{Pathak}}}} & Email : \href{mailto:amitkpathak09031997@gmail.com}{\textcolor{cyan}{amitkpathak09031997@gmail.com}}\\  \href{https://amitpathak09.github.io}{\textcolor{cyan}{https://amitpathak09.github.io}} & Mobile : +91-7047588450, +91-9431888031 \\
+  \textbf{\Large {\href{www.amitpathak.co.in/}{Amit Kumar \textcolor{cyan}{Pathak}}}} & {Email : \href{mailto:amitkpathak09031997@gmail.com}{\textcolor{cyan}{amitkpathak09031997@gmail.com}}}\\  \href{www.amitpathak.co.in}{\textcolor{cyan}{www.amitpathak.co.in}} & Mobile : +91-7047588450, +91-9431888031 \\
 \end{tabular*}
 
 
@@ -82,7 +82,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Indian Institute of Technology Kharagpur}{West Bengal, India}
-      {Bachelor of Technology in Civil Engineering;  CGPA: 7.35}{July 2015 -- April 2019}
+      {Bachelor of Technology in Civil Engineering; \textbf{CGPA: 7.48/10} }{July 2015 -- April 2019}
     \resumeSubheading
       {Kendriya Vidyalaya Sangathan}{Patna, India}
       {SSCE,  Percentage: 92.4;  SSE,  CGPA: 10.0 }{2012 -- 2014}
@@ -92,14 +92,29 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+    \resumeSubheading{Deep Neural Networks based Velocity prediction using IMU sensors}{Swarm IIT Kharagpur}{Research group, \textbf{Prof. Somesh Kumar}}{January 2018 - Present}
+        \begin{itemize}
+            \item Developing a Deep Neural Network model to accurately predict the Linear \& Angular Velocities of a UGV using input from cheap IMU sensor obtaining true value from april tag \& stereo-camera setup.
+       % \item[] \textbf{Key Learning: }Deep Learning, Stereo-vision, Embedded electronics.
+        \end{itemize}
     \resumeSubheading{Autonomous Hybrid Multi-rotor Aerial Vehicle}{ARK, IIT Kharagpur}
     {Research Group, \textbf{Prof. Somesh Kumar}}{October 2017 - Present}
         \begin{itemize}
             \setlength\itemsep{0em}
-            \item Designing a \textbf{Hybrid coaxial tri-copter} and \textbf{Hybrid tilt-rotor quadcopter} using 3D-printed and CNCed parts to achieve multifolds higher range and flight time as compared to traditional Multi-rotors.
+            \item Developing a \textbf{Hybrid coaxial tri-copter} and \textbf{Hybrid tilt-rotor quadcopter} using 3D-printed and CNCed parts to achieve multifolds higher range and flight time as compared to traditional Multi-rotors.
             \item Working on modifying PX4 firmware for the hybrid vehicle to achieve multi-rotor as well as fixed wing capability executing smoother tilt transition between the two forms.
             \item Finally targeted to achieve \textbf{autonomous flight: }takeoff, transition and landing using GPS waypoints.
+        %\item[] \textbf{Key Learning: }
         \end{itemize}
+   
+    \resumeSubheading{Self Balancing Robot}{IEEE Certified Winter Workshop}
+    {\textbf{Mentor }{\textbar\textcolor{cyan}{\href{https://docs.google.com/document/d/11qjwj4HgHm6B5j2JqodKFEqz-NMfN-LUJFbvb3YPGKI/edit?usp=sharing}{ Documentation}}}}{December 2016}
+    \begin{itemize}
+      %   \setlength\itemsep{0em}
+        \item Made a robot capable of balancing itself on two wheels using \textbf{two layered PID control}, getting feedback from \textbf{sensor fusion} of gyroscope and accelerometer (MPU6050) with encoder motors.
+        \item Designed \& tested the system for checking robustness, convergence and stability of two leveled pid controller.
+        %\item[]\textbf{Key Learning: }Controls, Embedded \& electronics.
+    \end{itemize}    
     \resumeSubheading{SAR (Search and Rescue) Quadcopter} {HJB Hall}
     {\textbf{Hardware Modelling}}{October 2017 - Present}
     \begin{itemize}
@@ -107,15 +122,9 @@
         \item Developing a quadcopter system that autonomously navigates and patrols an area using GPS waypoints. 
         \item Identifies humans from the downward facing camera feed using Deep Learning Techniques and marks it's position with gps coordinate using image transformation and feedback of quadcopter tilt and altitude. 
     \end{itemize}
-    \resumeSubheading{Self Balancing Robot}{IEEE Certified Winter Workshop}
-    {\textbf{Mentor}}{December 2016}
-    \begin{itemize}
-      %   \setlength\itemsep{0em}
-        \item Made a robot capable of balancing itself on two wheels using \textbf{two layered PID control}, getting feedback from \textbf{sensor fusion} of gyroscope and accelerometer (MPU6050) with encoder motors.
-        \item Designed \& tested the system for checking robustness, convergence and stability of two leveled pid controller.
-    \end{itemize}
+     \iffalse
     \resumeSubheading{Auto Omni-drive Corridor following robot}{IEEE Certified Winter Workshop}
-    {Student Member}{December 2015}
+    {Student Member \textbar \href{https://docs.google.com/document/d/1PiVqrIbEWMbqvZSS5_UbX1Ue3J44TnOceYClPmpE_3M/edit?usp=sharing}{\textcolor{cyan}{ Documentation}}}{December 2015}
     \resumeItemListStart
     \resumeItem{Embedded design \& autonomous robotics}{Made an autonomous robot that can avoid obstacles and follow a corridor using SoNaR sensors with algorithms for motion using tri-wheeled robot having omni-wheels.}
     \resumeItemListEnd
@@ -123,8 +132,9 @@
    \begin{itemize}
        \item Learnt Image Processing using \textbf{OpenCV} and worked on Face detection using \textbf{template matching} and Colour blob detection using \textbf{BFS}.
     \end{itemize}
+    \fi
     \resumeSubHeadingListEnd
-
+    
 %-----------EXPERIENCE-----------------
 \section{Position of Responsibilities}
   \resumeSubHeadingListStart
@@ -133,7 +143,7 @@
       {\href{https://www.robotix.in/team}{\textbf{\textcolor{cyan}{Head}}}}{March 2017 - Present}
       \begin{itemize}
           \item Leading a 3-tier team of 35 students as a Head of official robotics society of IIT Kharagpur to conduct national level robotics event in the techno-management fest Kshitij of IIT Kharagpur.
-          \item Organised multiples workshop in campus as well as throughout India to spread the culture of robotics.
+          \item Organised multiple workshops the in campus as well as throughout India to spread the culture of robotics.
           \item Co-developed the manual event Bomb-disposal organised in Robotix-2017 that saw participation of over 450 students. Event head for the manual event Poles-Apart being organised in Robotix-2018.
       \end{itemize}
   \resumeSubheading
@@ -153,7 +163,7 @@
       \item As the Finance Head, responsible for procuring and managing the technical inventory of the research group along with handling all the funds and related finances.
       \end{itemize}
   
-   \resumeSubheading{Autonomous Winter Workshop}{IIT Kharagpur}{\href{https://drive.google.com/file/d/1aFd-jJwfhh29AvVqa7kij1mgTfzCyQLX/view?usp=sharing}{\textcolor{cyan}{Mentor}}, IEEE Certified Workshop}{December 2016}
+   \resumeSubheading{Autonomous Winter Workshop}{IIT Kharagpur}{\href{https://drive.google.com/file/d/1aFd-jJwfhh29AvVqa7kij1mgTfzCyQLX/view?usp=sharing}{\textcolor{cyan}{Mentor}}, IEEE Certified Workshop \textbar \href{https://docs.google.com/document/d/1kXC4qV9kDisC4-zwSYlcHigkbp31qxK30O2t7unIKgI/edit?usp=sharing}{\textcolor{cyan}{ Documentation}}}{December 2016}
    \begin{itemize}
    \item Mentored a group of 40 students in the week long workshop and taught basic embedded electronics, autonomous robotics and basic control systems thereafter achieving targeted Problem Statement.
    \end{itemize}
@@ -163,36 +173,44 @@
  
 
 
-%--------PROGRAMMING SKILLS------------
+%--------RELEVANT COURSES------------
 \section{Relevant Courses}
 \begin{itemize}
  \setlength\itemsep{0em}
-    \item \textbf{}Programming and Data Structures, Electrical Technology, Basic Electronics, Transform Calculus, Probablity and Statistics.
-    \item \textbf{Civil: }Computer graphics and engineering drawing, Solid Mechanics, Structural Analysis.
-    \item \textbf{Coursera: }Deep Learning and Neural Networks (Ongoing), Machine Learning, Controls of Mobile Robots. 
+    \item \textbf{IEEE Certified Workshop: }
+    \begin{itemize}
+    \setlength\itemsep{0em}    
+    \item \textbf{\href {https://drive.google.com/file/d/1oZF76gKb10eKWj7u--sapCP5dpFkZt9w/view?usp=sharing}{\textcolor{cyan}{Autonomous Workshop}: }}Basic Electronics, Micro-controllers: AVR, Arduino, Embedded Systems, Autonomous Robotics, Controls of mobile robots \textbar \textbf{ \textcolor{cyan}{\href{https://docs.google.com/document/d/1PiVqrIbEWMbqvZSS5_UbX1Ue3J44TnOceYClPmpE_3M/edit?usp=sharing}{Documentation}}} 
+    \item \textbf {\href{https://drive.google.com/file/d/1vteWzcjWuT2P_iNuxPwzcHDWgbJx8ez6/view?usp=sharing}{\textcolor{cyan}{Image Processing Workshop}: }} C++, Image Processing, OpenCV, Graph Theory \textbar \textbf{ \textcolor{cyan}{\href{}{Project Link}}} 
+    \end{itemize}
+    \item \textbf{}Soft Computing Tools in Engineering (Ongoing), Programming and Data Structures, Electrical Technology, Basic Electronics, Transform Calculus, Probablity and Statistics.
+    \item \textbf{Coursera: }\textcolor{cyan}{\href{https://drive.google.com/open?id=1BPSlxudJJN6tGyBWVNCbsRLkgvv_R8_J}{Deep Learning and Neural Networks}}, Improving Deep Neural Networks (Ongoing), \textcolor{cyan}{\href{https://drive.google.com/open?id=1DyPdn3ImYcwripR8ya5cGgrT2JrkK7-R}{Machine Learning}}, Controls of Mobile Robots. 
+    \item \textbf{Civil: }Computer graphics and engineering drawing, Solid Mechanics, Structural Analysis, Design of Steel Structures.
+    
 \end{itemize}
 
 
-%-------------------------------------------
+%------------TECHNICAL SKILLS--------------------
 \section{Technical Skills}
 \begin{itemize}
 \setlength\itemsep{0em}
-    \item \textbf{Languages: }C, C++, Python, MATLAB, Octave, Bash
+    \item \textbf{Languages: }Python, C++, C, MATLAB, Octave, Bash, \LaTeX
     \item \textbf{Libraries: }OpenCV, ROS, TensorFlow
-    \item \textbf{Softwares: }Ansys, SolidWorks, Atmel Studio, Proteus, Photoshop.
+    \item \textbf{Softwares: }STAAD Pro, Ansys, SolidWorks, Auto CAD, Atmel Studio, Proteus, Photoshop.
     \item \textbf{Hardware: }AVR, Arduino, Rasberry Pi, Beaglebone Black.
 \end{itemize}
- %----------------------------------------------
+ %-----------AWARDS AND ACHIEVEMENTS----------------
  \section{Awards \& Achievements}
  \begin{itemize}
  \setlength\itemsep{0em}
  \item Won the \textcolor{cyan}{\href{https://drive.google.com/file/d/13e58dQRzgkfGEMpesHmXU6ZWWJVZ9x_B/view?usp=sharing}{\textbf{Most Innovative Design Award}}} in IARC-2017 at it's Asia-Pacific venue in Beijing, China.
+ \item Team Captain \textbar \textbf{ }Qualified for DRUSE - DRDO Robotics and Unmanned System Exposition Round 2
  \item \textbf{\textcolor{cyan}{\href{https://drive.google.com/file/d/1DRTkX94YzHKDueM7lv9TGNJwJDxM9Vpy/view?usp=sharing}{Best Fresher Award}}} for the Manual Robotics Event: Summit in Kshitij-2016.
  \item Participated in National Science Exhibition - KVS and won 2nd prize in Regionals.
  \item Certificate of Excellence - Bihar Science Challenge
  \item Pratibha Samman - 2012 by Prabhat Khabar
  \end{itemize}
-%---------------------------------------------------
+%--------------HOBBIES AND INTERESTS---------------------
 \section{Hobbies \& Interests}
 \textbf{Robotics} - Actively involved in robotics activities around the campus \textbar  \textbf{ Sports and fintess} - Qualified Written, Initial Screening and PABT Test
 in \textbf{NDA-2014}, actively play Volleyball, Table Tennis \& Badminton \textbar \textbf{ Drone Pilot} \textbar \textbf{ Hiking} \textbar  \textbf{ Debating} \textbar  \textbf{ Writing} 
